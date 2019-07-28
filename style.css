@@ -1,0 +1,28 @@
+#gameBox {
+  text-align:center;
+}
+
+#startButton, .button {
+  background-color:skyblue;
+  border:none;
+  color:white;
+  width:70px;
+  height:35px;
+  margin:5px 2px 0px 2px;
+}
+
+#startButton:hover {
+  background-color: orange;
+}
+
+#startButton:disabled {
+  background-color: grey;
+}
+
+.button:active {
+  background-color:blue;
+}
+
+#desc {
+  font: normal normal bold 20px/20px "Helvetica";
+}
